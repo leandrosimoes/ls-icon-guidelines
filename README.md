@@ -11,7 +11,7 @@ Android and iOS icon guidelines system to preview your icon designs
 
 ## Usage
 
-[Live Preview](https://lesimoesd.dev/ls-icon-guidelines)
+[Live Preview](https://lesimoes.dev/ls-icon-guidelines)
 
 ```javascript
     // Get the element where the previews should be render
