@@ -1,0 +1,62 @@
+.guideline.ios {
+    border-radius: 24%;
+}
+
+.guideline.ios.hidden {
+    display: none;
+}
+
+.guideline.ios .wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 24%;
+    position: relative;
+}
+
+.guideline.ios .wrapper * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    border-color: inherit;
+}
+
+.guideline.ios .large-circle {
+    width: calc(100% - 24%);
+    height: calc(100% - 24%);
+    border-radius: 50%;
+}
+
+.guideline.ios .mid-circle {
+    width: calc(100% - 51%);
+    height: calc(100% - 51%);
+    border-radius: 50%;
+}
+
+.guideline.ios .small-circle {
+    width: calc(100% - 65%);
+    height: calc(100% - 65%);
+    border-radius: 50%;
+}
+
+.guideline.ios .cross-1 {
+    width: 100%;
+    transform: rotate(45deg) translate(-50%, -50%);
+    border-width: 1px;
+    border-style: solid;
+    transform-origin: top left;
+}
+
+.guideline.ios .cross-2 {
+    width: 100%;
+    transform: rotate(-45deg) translate(-50%, -50%);
+    border-width: 1px;
+    border-style: solid;
+    transform-origin: top left;
+}
+
+.guideline.ios .wrapper::after {
+    content: 'iOS';
+    top: 105%;
+}

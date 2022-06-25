@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Ls Icon Guidelines</title>
+  </head>
+  <body>
+    <header>
+      <button type="button" id="toggle-visible">Toggle Visible</button>
+      <button type="button" id="toggle-guidelines">Toggle Guidelines</button>
+      <button type="button" id="toggle-shadow">Toggle Shadow</button>
+      <button type="button" id="toggle-safe-area">Toggle Safe Area</button>
+      <button type="button" id="toggle-platform-label">Toggle Platform Label</button>
+      <input type="file" id="icon-image" accept="image/png, image/jpeg">
+      <input type="color" id="background-color"> Background Color
+      <input type="color" id="border-color"> Border Color
+      <input type="color" id="font-color"> Font Color
+    </header>
+    <main>
+      <div id="android-guidelines"></div>
+      <div id="ios-guidelines"></div>
+    </main>
+    <script src="/dist/ls-icon-guidelines.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

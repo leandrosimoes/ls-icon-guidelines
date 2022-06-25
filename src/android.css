@@ -1,0 +1,108 @@
+.guideline.android {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.guideline.android.hidden {
+    display: none;
+}
+
+.guideline.android .wrapper {
+    width: calc(100% * 0.75);
+    height: calc(100% * 0.75);
+    position: relative;
+}
+
+.guideline.android .wrapper * {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    border-color: inherit;
+    border-radius: 8%;
+}
+
+.guideline.android .vertical-rectangle {
+    width: calc(100% - 34%);
+    height: calc(100% - 10%);
+}
+
+.guideline.android .square {
+    width: calc(100% - 22%);
+    height: calc(100% - 22%);
+}
+
+.guideline.android .horizontal-rectangle {
+    height: calc(100% - 34%);
+    width: calc(100% - 10%);
+}
+
+.guideline.android .large-circle {
+    width: calc(100% - 10%);
+    height: calc(100% - 10%);
+    border-radius: 50%;
+}
+
+.guideline.android .small-circle {
+    width: calc(100% - 60%);
+    height: calc(100% - 60%);
+    border-radius: 50%;
+}
+
+.guideline.android .cross-1 {
+    width: calc(100% + 40%);
+    transform: rotate(45deg) translate(-50%, -50%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    transform-origin: top left;
+}
+
+.guideline.android .cross-2 {
+    width: calc(100% + 40%);
+    transform: rotate(-45deg) translate(-50%, -50%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    transform-origin: top left;
+}
+
+.guideline.android .vertical-line-1,
+.guideline.android .vertical-line-2,
+.guideline.android .vertical-line-3 {
+    height: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+}
+
+.guideline.android .vertical-line-2 {
+    left: calc(50% - 14%);
+}
+
+.guideline.android .vertical-line-3 {
+    left: calc(50% + 14%);
+}
+
+.guideline.android .horizontal-line-1,
+.guideline.android .horizontal-line-2,
+.guideline.android .horizontal-line-3 {
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+}
+
+.guideline.android .horizontal-line-2 {
+    top: calc(50% - 14%);
+}
+
+.guideline.android .horizontal-line-3 {
+    top: calc(50% + 14%);
+}
+
+.guideline.android .wrapper::after {
+    content: 'Android';
+    top: 125%;
+}

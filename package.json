@@ -1,0 +1,33 @@
+{
+  "name": "ls-icon-guidelines",
+  "version": "1.0.0",
+  "description": "Android and iOS icon guidelines system to preview your icon designs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrosimoes/ls-icon-guidelines.git",
+    "baseUrl": "https://github.com/leandrosimoes/ls-icon-guidelines"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "notification",
+    "listener"
+  ],
+  "author": {
+    "name": "Leandro Simões",
+    "email": "leandro.simoes@outlook.com"
+  },
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
