@@ -1,12 +1,8 @@
 const path = require("path")
 
-module.exports = {
+const defualtConfig = {
   mode: "production",
   entry: "./src/ls-icon-guidelines.js",
-  output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "ls-icon-guidelines.min.js",
-  },
   module: {
     rules: [
       {
@@ -16,3 +12,24 @@ module.exports = {
     ],
   },
 }
+
+const distConfig = {
+  ...defualtConfig,
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: "ls-icon-guidelines.min.js",
+  },
+}
+
+const docsConfig = {
+  ...defualtConfig,
+  output: {
+    path: path.resolve(__dirname, "docs/js"),
+    filename: "ls-icon-guidelines.min.js",
+  },
+}
+
+module.exports = [
+  distConfig,
+  docsConfig,
+]
